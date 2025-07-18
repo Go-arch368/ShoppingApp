@@ -72,7 +72,7 @@ const HouseholdEssentials = () => {
             <View
               style={{
                 width: "100%",
-                aspectRatio: category.aspectRatio,
+                 aspectRatio: category.aspectRatio,
                 borderRadius: 12,
                 overflow: "hidden",
               }}
@@ -86,18 +86,7 @@ const HouseholdEssentials = () => {
                 }}
               />
             </View>
-            <Text
-              style={{
-                textAlign: "center",
-                fontSize: 12,
-                fontWeight: "600",
-                marginTop: 6,
-                color: "#2E3642",
-              }}
-              numberOfLines={2}
-            >
-              {category.name}
-            </Text>
+          
           </TouchableOpacity>
         ))}
       </View>

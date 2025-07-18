@@ -122,18 +122,7 @@ const BeautyAndPersonalCare = () => {
                 }}
               />
             </View>
-            <Text
-              style={{
-                textAlign: "center",
-                fontSize: 12,
-                fontWeight: "600",
-                marginTop: 6,
-                color: "#2E3642",
-              }}
-              numberOfLines={2}
-            >
-              {category.name}
-            </Text>
+            
           </TouchableOpacity>
         ))}
       </View>

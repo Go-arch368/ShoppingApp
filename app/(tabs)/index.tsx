@@ -7,7 +7,15 @@ import ProductCarousel from "@/components/ProductCarousel";
 import CategoryGrid from "@/components/CategoryGrid";
 import SnacksAndDrinks from "@/components/SnacksAndDrinks";
 import BeautyAndPersonalCare from "@/components/BeautyAndPersonalCare";
-import HouseholdEssentials from "@/components/HouseHoldEssentials";
+import HouseholdEssentials from "@/components/HouseholdEssentials";
+import ShopByStoreCarousel from "@/components/ShopByStoreCarousel";
+import ProductCardCarousel from "@/components/ProductCardCarousel";
+import BannerCarousel from "@/components/BannerCarousel";
+import OliveOilCarousel from "@/components/OliveOilCarousel";
+import PestControlCarousel from "@/components/PestControlCarousel";
+import MonsoonCarousel from "@/components/MonsoonCarousel";
+import ElectronicsCarousel from "@/components/ElectronicsCarousel";
+
 const Index = () => {
   return (
     <View className="flex-1 bg-white">
@@ -23,8 +31,14 @@ const Index = () => {
         <CategoryGrid/>
         <SnacksAndDrinks/>
         <BeautyAndPersonalCare/>
-        <HouseholdEssentials/>
-     
+         <HouseholdEssentials/> 
+         <ShopByStoreCarousel/>
+         <ProductCardCarousel/>
+         <BannerCarousel/>
+         <OliveOilCarousel/>
+         <PestControlCarousel/>
+         <MonsoonCarousel/>
+         <ElectronicsCarousel/>
       </ScrollView>
     </View>
   );
